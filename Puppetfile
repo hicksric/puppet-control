@@ -26,7 +26,7 @@ mod 'ntp',
   :ref => 'master'
 
 mod 'role',
-  :git => 'https://github.com/hicksric/puppet-role.git'
+  :git => 'https://github.com/hicksric/puppet-role.git',
   :ref => 'master'
 
 mod 'profile',
