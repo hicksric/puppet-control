@@ -29,11 +29,11 @@ mod 'ntp',
 
 mod 'role',
   :git => 'git@github.com:hicksric/puppet-role.git',
-  :ref => 'master'
+  :ref => 'developement'
 
 mod 'profile',
   :git => 'git@github.com:hicksric/puppet-profile.git',
-  :ref => 'master'
+  :ref => 'developement'
 
 mod 'timezone',
   :git => 'git@github.com:hicksric/puppet-timezone.git',
