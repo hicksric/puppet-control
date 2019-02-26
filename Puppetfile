@@ -32,3 +32,7 @@ mod 'role',
 mod 'profile',
   :git => 'git@github.com:hicksric/puppet-profile.git',
   :ref => 'master'
+
+mod 'timezone',
+  :git => 'git@github.com:hicksric/puppet-timezone.git',
+  :ref => 'master'
