@@ -36,3 +36,4 @@ mod 'profile',
 mod 'timezone',
   :git => 'git@github.com:hicksric/puppet-timezone.git',
   :ref => 'master'
+
