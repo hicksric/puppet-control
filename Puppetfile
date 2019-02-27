@@ -6,6 +6,7 @@ mod 'puppetlabs/inifile',     '2.2.1'
 mod 'puppetlabs/stdlib',      '4.25.1'
 mod 'puppetlabs/concat',      '4.2.1'
 mod 'puppetlabs/java', '1.6.0'
+mod 'puppetlabs/apt', '1.1.0'
 mod 'puppet/selinux', '0.8.0'
 mod 'garethr/docker', '0.8.0'
 
