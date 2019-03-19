@@ -1,2 +1,10 @@
 ---
 message: "This node is using common data"
+profile::apache::default_vhost: false
+profile::apache::vhost::port: 80
+foo: bar
+profile::base::ntp_servers:
+  - 0.centos.pool.ntp.org
+  - 1.ubuntu.pool.ntp.org
+  - 2.centos.pool.ntp.org
+  - 3.ubuntu.pool.ntp.org
