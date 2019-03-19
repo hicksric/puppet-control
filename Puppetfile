@@ -18,17 +18,17 @@ mod 'puppetlabs/java', '3.3.0'
 #  :branch => 'docs_experiment'
 
 mod 'ssh',
-  :git    => 'https://github.com/hicksric/puppet-ssh.git',
+  :git    => 'git@github.com:hicksric/puppet-ssh.git',
   :ref    => 'master'
 
 mod 'ntp',
-  :git    => 'https://github.com/hicksric/puppet-ntp.git',
+  :git    => 'git@github.com:hicksric/puppet-ntp.git',
   :ref    => 'master'
 
 mod 'role',
-  :git    => 'https://github.com/hicksric/puppet-role.git',
+  :git    => 'git@github.com:hicksric/puppet-role.git',
   :ref    => 'master'
 
 mod 'profile',
-  :git    => 'https://github.com/hicksric/puppet-profile.git',
+  :git    => 'git@github.com:hicksric/puppet-profile.git',
   :ref    => 'master'
