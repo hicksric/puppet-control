@@ -29,7 +29,9 @@ mod 'ntp',
 mod 'role',
   :git    => 'git@github.com:hicksric/puppet-role.git',
   :ref    => 'development'
+  :install_path => 'site-modules'
 
 mod 'profile',
   :git    => 'git@github.com:hicksric/puppet-profile.git',
   :ref    => 'development'
+  :install_path => 'site-modules'
