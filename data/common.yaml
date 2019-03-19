@@ -8,4 +8,3 @@ profile::base::ntp_servers:
   - 1.ubuntu.pool.ntp.org
   - 2.centos.pool.ntp.org
   - 3.ubuntu.pool.ntp.org
-selinux::mode: permissive
