@@ -1,0 +1,12 @@
+---
+#bob: kate
+profile::apache::apache_vhost_servers: {
+  'rhicks-centos7-pe-agent.oss.co.nz': {
+    port: 80,
+    docroot: '/var/www/rhicks-centos7-pe-agent',
+  }, 
+  'rhicks-centos7-pe-agent2.oss.co.nz': {
+    port: 80,
+    docroot: '/var/www/rhicks-centos7-pe-agent2',
+  }
+}
