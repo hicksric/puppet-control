@@ -11,11 +11,10 @@ profile::apache::apache_vhost_servers: {
   }
 }
 
-profile::nginx::vhosts: {
+profile::nginx::vhosts:
   - 'fqdn': 'rhicks-centos7-pe-agent.oss.co.nz'
     'port': 80
     'server_aliases': ''
   - 'fqdn': 'rhicks-centos7-pe-agent2.oss.co.nz'
     'port': 80
     'server_aliases': ''
-}
