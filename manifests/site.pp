@@ -28,7 +28,7 @@ notify { "This is outside all node definitions": }
 
 node 'lap-rsh002.oss.co.nz', 'rhicks-centos7-pe-agent' {
   notify { "This matches the node name": }
-  include tree
+#  include tree
 }
 
 node /rsh002/ {
