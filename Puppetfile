@@ -27,6 +27,10 @@ mod 'ntp',
   :git    => 'git@github.com:hicksric/puppet-ntp.git',
   :ref    => 'master'
 
+mod 'nginx',
+  :git    => 'git@github.com:hicksric/puppet-nginx.git',
+  :ref    => 'master'
+
 mod 'role',
   :git    => 'git@github.com:hicksric/puppet-role.git',
   :ref    => 'master',
