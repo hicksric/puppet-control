@@ -12,7 +12,6 @@
 ## Active Configurations ##
 
 # Disable filebucket by default for all File resources:
-#https://docs.puppet.com/pe/2015.3/release_notes.html#filebucket-resource-no-longer-created-by-default
 File { backup => false }
 
 # DEFAULT NODE
@@ -25,8 +24,26 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
+notify { "This is outside all node definitions": }
+
+node 'lap-rsh002.oss.co.nz', 'rhicks-centos7-pe-agent' {
+  notify { "This matches the node name": }
+  include tree
+}
+
+node /rsh002/ {
+  notify { "regex node def with regex": }
+}
+
+node rhicks-vbcentos7 {
+  include pe_repo::platform::windows_x86_64
+  include pe_repo::platform::windows_i386
+}
+
 node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
+  notify { "Message from Default node": }
 }
+
