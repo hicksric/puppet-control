@@ -18,3 +18,6 @@ profile::nginx::vhosts:
   - 'fqdn': 'rhicks-centos7-pe-agent2.oss.co.nz'
     'port': 80
     'server_aliases': ''
+
+classes:
+  - profile:nginx

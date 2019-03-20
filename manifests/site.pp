@@ -26,10 +26,9 @@ File { backup => false }
 
 #notify { "This is outside all node definitions": }
 
-node 'rhicks-centos7-pe-agent' {
-  notify { "This matches the node name": }
-#  include tree
-}
+#node 'rhicks-centos7-pe-agent' {
+#  notify { "This matches the node name": }
+#}
 
 node /rsh002/ {
   notify { "regex node def with regex": }
@@ -41,6 +40,7 @@ node rhicks-vbcentos7 {
 }
 
 node default {
+  hiera_include('classes')
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
