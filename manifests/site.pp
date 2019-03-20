@@ -24,9 +24,9 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
-notify { "This is outside all node definitions": }
+#notify { "This is outside all node definitions": }
 
-node 'lap-rsh002.oss.co.nz', 'rhicks-centos7-pe-agent' {
+node 'rhicks-centos7-pe-agent' {
   notify { "This matches the node name": }
 #  include tree
 }
